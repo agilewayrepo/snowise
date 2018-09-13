@@ -1,5 +1,5 @@
 view: sequences {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.SEQUENCES ;;
+  sql_table_name: "SNOWISE"."SNZ".SEQUENCES ;;
 
   dimension: comment {
     type: string
