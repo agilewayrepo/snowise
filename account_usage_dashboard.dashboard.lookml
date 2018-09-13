@@ -1,4 +1,4 @@
-- dashboard: snowflake_usage
+- dashboard: Snowflake_usage
   title: Snowflake Usage
   layout: newspaper
   elements:
