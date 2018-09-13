@@ -19,7 +19,7 @@
 This Block covers all of the core metrics that come with the dataset, as well as additional value-add analysis, and should serve as a great jump start for further exploration.
 * The schema documentation for Account Usage can be found in [Snowflake's documentation](https://docs.snowflake.net/manuals/LIMITEDACCESS/data-sharing-account-usage.html). Please note that your naming might vary slightly.
 
-## Additional Info
+## Additional Information
 
 #### Data Latency
 * The INFORMATION_SCHEMA views and table functions display data in real-time, whereas the ACCOUNT_USAGE views have some built-in latency, due to the process of extracting the usage data from Snowflake’s internal metadata store. However, the ACCOUNT_USAGE views have been designed to minimize the latency impact, based on the type of data displayed in the views:
