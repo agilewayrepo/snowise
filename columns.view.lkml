@@ -1,5 +1,5 @@
 view: columns {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.COLUMNS ;;
+  sql_table_name: "SNOWISE"."SNZ".COLUMNS ;;
 
   dimension: id {
     primary_key: yes
