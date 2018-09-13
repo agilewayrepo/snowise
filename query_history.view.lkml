@@ -1,5 +1,5 @@
 view: query_history {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY ;;
+  sql_table_name: "SNOWISE"."SNZ".QUERY_HISTORY ;;
 
   dimension: compilation_time {
     type: string
