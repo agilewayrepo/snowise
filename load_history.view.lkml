@@ -1,5 +1,5 @@
 view: load_history {
- sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.LOAD_HISTORY;;
+ sql_table_name: "SNOWISE"."SNZ".LOAD_HISTORY;;
   dimension: table_id {
     type: number
     sql: ${TABLE}.TABLE_ID ;;
