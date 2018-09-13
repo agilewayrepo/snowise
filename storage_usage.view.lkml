@@ -1,9 +1,9 @@
 view: storage_usage {
   sql_table_name:
   {% if database_name._in_query or database_id._in_query %}
-  SNOWFLAKE.ACCOUNT_USAGE.DATABASE_STORAGE_USAGE_HISTORY
+  "SNOWISE"."SNZ".DATABASE_STORAGE_USAGE_HISTORY
   {% else %}
-  SNOWFLAKE.ACCOUNT_USAGE.STORAGE_USAGE
+  "SNOWISE"."SNZ".STORAGE_USAGE
   {% endif %};;
 
 
