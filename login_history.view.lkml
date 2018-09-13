@@ -1,5 +1,5 @@
 view: login_history {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.LOGIN_HISTORY ;;
+  sql_table_name: "SNOWISE"."SNZ".LOGIN_HISTORY ;;
 
   dimension: client_ip {
     type: string
