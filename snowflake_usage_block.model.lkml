@@ -1,4 +1,4 @@
-connection: "account_usage"
+connection: "webcor"
 
 # include all the views
 include: "*.view"
