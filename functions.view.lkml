@@ -1,5 +1,5 @@
 view: functions {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.FUNCTIONS ;;
+  sql_table_name: "SNOWISE"."SNZ".FUNCTIONS ;;
 
   dimension: argument_signature {
     type: string
