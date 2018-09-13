@@ -1,5 +1,5 @@
 view: stages {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.STAGES ;;
+  sql_table_name: "SNOWISE"."SNZ".STAGES ;;
 
   dimension: comment {
     type: string
