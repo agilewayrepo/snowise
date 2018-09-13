@@ -1,5 +1,5 @@
 view: tables {
-  sql_table_name: SNOWFLAKE.ACCOUNT_USAGE.TABLES ;;
+  sql_table_name: "SNOWISE"."SNZ".TABLES ;;
 
   dimension: id {
     primary_key: yes
